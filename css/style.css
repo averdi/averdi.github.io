@@ -9,6 +9,8 @@ header {
 
 h1 {
   padding-left: 30px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 70px;
 }
 
 p{
@@ -24,5 +26,5 @@ p{
 }
 
 div.hover :hover{
-  background-color: grey;
+  background-color: gold;
 }
