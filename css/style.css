@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(139, 224, 206);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 header {
   height: 60px;
   background-color: rgb(31, 31, 29);
@@ -9,9 +14,17 @@ header {
 
 h1 {
   padding-left: 30px;
- font-family: 'Fredericka the Great', cursive;
-  font-size: 70px;
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
   color: rgb(31, 31, 29);
+  text-align: center;
+  letter-spacing: 3px4;
+}
+
+#catchPhrase {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Abel', sans-serif;
 }
 
 p{
@@ -19,6 +32,8 @@ p{
     padding-top: 25px;
     padding-left: 50px;
     float: left;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
 }
 
 #headPhrase {
@@ -27,5 +42,10 @@ p{
 }
 
 div.hover :hover{
-  background-color: gold;
+  background-color: rgb(124, 67, 67);
+}
+
+hr {
+  max-width: 65%;
+  border-color: rgb(31, 31, 29);
 }
