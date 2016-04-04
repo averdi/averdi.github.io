@@ -18,12 +18,12 @@ h1 {
   font-size: 50px;
   color: rgb(31, 31, 29);
   text-align: center;
-  letter-spacing: 3px4;
+  letter-spacing: 4px;
 }
 
 #catchPhrase {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'Abel', sans-serif;
 }
 
@@ -31,9 +31,11 @@ p{
     margin: 0;
     padding-top: 25px;
     padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 45px;
     float: left;
     font-family: 'Abel', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #headPhrase {
@@ -49,3 +51,13 @@ hr {
   max-width: 65%;
   border-color: rgb(31, 31, 29);
 }
+
+.firstcharacter {
+  float: left;
+  color: #903;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+     font-family: 'Abel', sans-serif; }
