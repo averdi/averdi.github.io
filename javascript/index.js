@@ -8,3 +8,5 @@ function getValue(){
       myArray.splice(random, 1);
     }
 }
+
+
