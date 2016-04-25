@@ -54,6 +54,20 @@ hr {
   padding-left: 3px;
   font-family: 'Abel', sans-serif; }
 
+#btnSearch {
+  padding: 10px 20px 11px !important;
+  font-size: 21px !important;
+  background-color: #8be0ce;
+  font-weight: bold;
+  border-radius: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase; }
+
+.message {
+  font-weight: 900; }
+
 @media (min-width: 768px) {
   #headPhrase {
     position: relative;
