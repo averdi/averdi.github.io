@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html language="en" ng-app="PortfolioWebsite">
 
 <head>
 
@@ -7,17 +7,20 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link href='https://fonts.googleapis.com/css?family=Monoton|Abel' rel='stylesheet' type='text/css'>
- <script src= "javascripts/index.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+ <script src="https://cdn.rawgit.com/angular-ui/ui-router/0.2.18/release/angular-ui-router.min.js"></script>
+
+<script src= "javascripts/index.js"></script>
  <link rel="stylesheet" type= "text/css" href="css/style.css">
 
- <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
- <script src="//cdn.rawgit.com/angular-ui/ui-router/0.2.18/release/angular-ui-router.min.js"></script>
 
- <script src="/javascripts/app.js"></script>
+ <script src="javascripts/app.js"></script>
+ <script src="javascripts/headerController.js"></script>
 
 
 </head>
-<body>
+<body ng-controller="HeaderController as headCtrl">
 
   <header class="container-fluid hover">
     <div class="row">
@@ -34,21 +37,26 @@
     </div>
   </header>
 
-<div>
+
 
 <h2>ANTONIA VERDI</h2>
 
   <h4 id ="catchPhrase">Web Developer + Artist + Musician</h4>
   <hr>
 
+  <div class="navbar">
 
-  <p><span class="firstcharacter">M</span>y name is Antonia Verdi. I'm a <span class="message">_____</span> Austin-based web developer and musician. I am a full-stack developer with a passion for front-end development. I also drum in several <span class="message"> _____ </span> bands around town. Currently I'm taking a General Assembly Web Development Immersive with an anticipated graduation in May. See some of my <span class="message"> ____ </span> work below!</p>
-  <hr>
-</div>
 
-<div>
-  <input type="button" id="btnSearch" value="Fill in the blanks" onclick="getValue()" />
-</div>
+        <nav class="tabs">
+          <a ui-sref-active="active" ui-sref="home">Home</a>
+          <a ui-sref-active="active" ui-sref="projects">My Projects</a>
+          <a ui-sref-active="active" ui-sref="contact">Contact</a>
+        </nav>
+  </div>
+
+        <div ui-view></div>
+
+
 
 </body>
 
