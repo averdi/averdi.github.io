@@ -10,15 +10,15 @@
     $stateProvider
       .state('home', {
         url: "/",
-        templateUrl: "/templates/_homeView.html"
+        templateUrl: "/templates2/_homeView.html"
       })
       .state('projects', {
         url: "/projects",
-        templateUrl: "/templates/_projectsView.html"
+        templateUrl: "/templates2/_projectsView.html"
       })
      .state('contact', {
         url: "/contact",
-        templateUrl: "/templates/_contactView.html"
+        templateUrl: "/templates2/_contactView.html"
       });
   });
 })();
