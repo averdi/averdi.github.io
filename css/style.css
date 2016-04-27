@@ -70,6 +70,9 @@ hr {
 .message {
   font-weight: 900; }
 
+.navbar {
+  text-align: center; }
+
 @media (min-width: 768px) {
   #headPhrase {
     position: relative;
