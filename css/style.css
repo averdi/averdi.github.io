@@ -72,7 +72,9 @@ hr {
 
 .navbar {
   text-align: center;
-  font-family: 'Abel', sans-serif; }
+  font-family: 'Abel', sans-serif;
+  font-size: 23px;
+  letter-spacing: 10px; }
 
 #projectHeader {
   text-align: center; }
