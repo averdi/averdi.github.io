@@ -73,6 +73,9 @@ hr {
 .navbar {
   text-align: center; }
 
+#projectHeader {
+  text-align: center; }
+
 @media (min-width: 768px) {
   #headPhrase {
     position: relative;
