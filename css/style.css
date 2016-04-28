@@ -71,7 +71,8 @@ hr {
   font-weight: 900; }
 
 .navbar {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Abel', sans-serif; }
 
 #projectHeader {
   text-align: center; }
