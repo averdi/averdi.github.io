@@ -76,6 +76,10 @@ hr {
   font-size: 23px;
   letter-spacing: 10px; }
 
+.blur:hover {
+  color: transparent;
+  text-shadow: 0px 0px 5px black; }
+
 #projectHeader {
   text-align: center; }
 
