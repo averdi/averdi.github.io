@@ -86,6 +86,9 @@ hr {
 a {
   color: black; }
 
+a:hover {
+  text-decoration: none; }
+
 .navbar {
   text-align: center;
   font-family: 'Abel', sans-serif;
