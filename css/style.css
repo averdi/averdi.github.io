@@ -137,6 +137,13 @@ a:hover {
   margin: 8px !important;
   text-transform: uppercase; }
 
+.mediaIcons a img {
+  height: 40px;
+  margin-top: 20px; }
+
+.mediaIcons {
+  text-align: center; }
+
 @media (min-width: 768px) {
   #headPhrase {
     position: relative;
