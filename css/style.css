@@ -88,7 +88,10 @@ a {
 
 a:hover {
   text-decoration: none;
-  cursor: crosshair; }
+  cursor: crosshair;
+  color: transparent;
+  text-shadow: 0 0 3px #000;
+  text-decoration: none; }
 
 .navbar {
   text-align: center;
