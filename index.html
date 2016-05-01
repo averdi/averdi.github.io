@@ -11,7 +11,12 @@
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
  <script src="https://cdn.rawgit.com/angular-ui/ui-router/0.2.18/release/angular-ui-router.min.js"></script>
 
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 <script src= "javascripts/index.js"></script>
+
+<link href="http://cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
  <link rel="stylesheet" type= "text/css" href="css/style.css">
 
 
@@ -22,27 +27,9 @@
 </head>
 <body ng-controller="HeaderController as headCtrl">
 
-  <header class="container-fluid hover">
-    <div class="row">
-      <div class="col-xs-12 col-sm-3">
+  <header>
 
         <h1>Antonia Verdi</h1>
-
-      </div>
-
-      <div class="col-xs-12 col-sm-9">
-        <p id="headPhrase">Some of my artistic visions</p>
-
-      </div>
-    </div>
-  </header>
-
-
-
-<h2>ANTONIA VERDI</h2>
-
-  <h4 id ="catchPhrase">Web Developer + Artist + Musician</h4>
-  <hr>
 
   <div class="navbar">
 
@@ -54,9 +41,27 @@
         </nav>
   </div>
 
+
+  </header>
+
+<section class="hero">
+
+    <h2 id="antonia">ANTONIA</h2>
+    <h2>VERDI</h2>
+
+      <h4 id ="catchPhrase">Web Developer + Artist + Musician</h4>
+      <hr>
+
+</section>
+
+<section class="gray">
+
+<!-- <a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
+<div id="mylightbox" class="featherLight">This div will be opened in a lightbox</div> -->
+
         <div ui-view></div>
 
-
+</section>
 </body>
 
 </html>
