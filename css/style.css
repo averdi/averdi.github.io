@@ -77,8 +77,8 @@ hr {
   cursor: crosshair; }
 
 #btnSearch:hover {
-  background-color: black;
-  color: transparent; }
+  background-color: #3E3838;
+  color: #d7d7d7; }
 
 .message {
   font-weight: 900; }
