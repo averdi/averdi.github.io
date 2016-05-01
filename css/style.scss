@@ -6,6 +6,7 @@ body {
 .hero {
   height: 318px;
   background-color: rgb(215, 215, 215);
+  border-radius: 25px;
 }
 
 header {
@@ -145,6 +146,7 @@ a:hover {
   height: 450px;
   background: #8be0ce;
   margin-bottom: 56px;
+  border-radius: 25px;
 }
 
 
@@ -169,6 +171,8 @@ a:hover {
   text-align: center!important;
   float: none!important;
   padding: 0!important;
+  margin: 8px!important;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {

@@ -4,7 +4,8 @@ body {
 
 .hero {
   height: 318px;
-  background-color: #d7d7d7; }
+  background-color: #d7d7d7;
+  border-radius: 25px; }
 
 header {
   color: black;
@@ -117,7 +118,8 @@ a:hover {
 .gray {
   height: 450px;
   background: #8be0ce;
-  margin-bottom: 56px; }
+  margin-bottom: 56px;
+  border-radius: 25px; }
 
 #projectHeader {
   text-align: center; }
@@ -134,7 +136,9 @@ a:hover {
   font-size: 52px !important;
   text-align: center !important;
   float: none !important;
-  padding: 0 !important; }
+  padding: 0 !important;
+  margin: 8px !important;
+  text-transform: uppercase; }
 
 @media (min-width: 768px) {
   #headPhrase {
