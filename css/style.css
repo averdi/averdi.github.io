@@ -112,7 +112,8 @@ a {
   text-align: center; }
 
 #about p {
-  padding: 20px 0; }
+  padding-top: 74px;
+  text-align: center; }
 
 @media (min-width: 768px) {
   #headPhrase {
