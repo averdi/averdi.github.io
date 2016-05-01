@@ -139,7 +139,7 @@ a:hover {
 
 .mediaIcons a img {
   height: 40px;
-  margin-top: 20px; }
+  margin: 20px 0 40px 0; }
 
 .mediaIcons {
   text-align: center; }
