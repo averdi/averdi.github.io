@@ -4,7 +4,7 @@ body {
 
 .hero {
   height: 318px;
-  background-color: #8be0ce; }
+  background-color: #d7d7d7; }
 
 header {
   color: black;
@@ -65,7 +65,7 @@ hr {
 #btnSearch {
   padding: 10px 20px 11px !important;
   font-size: 21px !important;
-  background-color: #d7d7d7;
+  background-color: #8be0ce;
   font-weight: bold;
   border-radius: 100px;
   border: 1px solid black;
@@ -105,7 +105,7 @@ a {
 
 .gray {
   height: 400px;
-  background: #d7d7d7;
+  background: #8be0ce;
   margin: 56px 0; }
 
 #projectHeader {
@@ -114,6 +114,9 @@ a {
 #about p {
   padding-top: 74px;
   text-align: center; }
+
+.title {
+  font-family: 'Poiret One', sans-serif; }
 
 @media (min-width: 768px) {
   #headPhrase {
