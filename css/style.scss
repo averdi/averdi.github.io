@@ -81,7 +81,7 @@ hr {
 #btnSearch {
 padding: 10px 20px 11px !important;
 font-size: 21px !important;
-background-color: #8be0ce;
+background-color: transparent;
 font-weight: bold;
 border-radius: 100px;
 border: 1px solid black;
@@ -93,6 +93,10 @@ margin: 0 auto;
 cursor: crosshair;
 }
 
+#btnSearch:hover {
+  background-color: black;
+  color: transparent;
+}
 
 .message {
   font-weight: 900;
