@@ -244,11 +244,12 @@ img:hover {
   text-align: center;
 }
 
-input, textarea {
+.contact input, textarea {
   border: 2px solid #black;
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 25px;
+  width: 61%;
   background: transparent;
   /*box-sizing border box calculates the width to include the border and the padding*/
 }
