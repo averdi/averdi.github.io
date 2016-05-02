@@ -198,11 +198,12 @@ img:hover {
   text-align: center; }
 
 input, textarea {
-  width: 100%;
-  border: 2px solid #00a84f;
+  border: 2px solid #black;
   margin-bottom: 15px;
   padding: 20px;
-  box-sizing: border-box;
+  width: 61%;
+  border-radius: 25px;
+  background: transparent;
   /*box-sizing border box calculates the width to include the border and the padding*/ }
 
 @keyframes bounce {
