@@ -130,6 +130,18 @@ a:hover {
   border: 3px solid red;
   font-family: Abel,sans-serif; }
 
+.picture h5 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 26px;
+  text-align: center;
+  font-family: "Amatic SC",cursive; }
+
+.picture ul {
+  list-style: none;
+  text-align: left;
+  font-size: 23px; }
+
 .pictureDescription {
   border: 3px solid #03A9F4;
   display: inline-block;
@@ -141,6 +153,16 @@ a:hover {
   vertical-align: top;
   font-family: Abel,sans-serif;
   font-size: 21px; }
+
+.pictureDescription h5 {
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Amatic SC", cursive; }
+
+.pictureDescription ul {
+  list-style: none;
+  text-align: left; }
 
 #about p {
   padding-top: 74px;
