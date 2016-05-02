@@ -123,19 +123,23 @@ a:hover {
 
 .picture {
   display: inline-block;
-  height: 100px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  height: 312px;
+  width: 48%;
+  margin-right: 26px;
+  border: 3px solid red;
+  font-family: Abel,sans-serif; }
 
 .pictureDescription {
   border: 3px solid #03A9F4;
   display: inline-block;
   border-radius: 25px;
   height: 312px;
-  width: 50%;
+  width: 48%;
   padding: 20px;
   text-align: center;
   vertical-align: top;
-  font-family: 'Abel', sans-serif;
+  font-family: Abel,sans-serif;
   font-size: 21px; }
 
 #about p {
