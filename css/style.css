@@ -121,6 +121,12 @@ a:hover {
   margin-bottom: 56px;
   border-radius: 25px; }
 
+.picture {
+  display: inline-block; }
+
+.pictureDescription {
+  border: 3px solid #03A9F4; }
+
 #about p {
   padding-top: 74px;
   text-align: center; }
