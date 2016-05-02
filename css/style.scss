@@ -151,10 +151,12 @@ a:hover {
 
 .picture {
   display: inline-block;
+  height: 100px;
 }
 
 .pictureDescription {
   border: 3px solid #03A9F4;
+  display: inline-block;
 }
 
 // Projects section
