@@ -144,6 +144,22 @@ a:hover {
 .mediaIcons {
   text-align: center; }
 
+.mediaIcons:hover {
+  color: #cecece; }
+
+img:hover {
+  animation: bounce 1s; }
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
 @media (min-width: 768px) {
   #headPhrase {
     position: relative;
