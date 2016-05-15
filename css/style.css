@@ -193,6 +193,9 @@ a:hover {
 img:hover {
   animation: bounce 1s; }
 
+.projectImage {
+  height: 500px; }
+
 .contact {
   padding: 40px 0;
   text-align: center; }
